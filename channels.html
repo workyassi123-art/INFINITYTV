@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Channels List — Infinity Tv</title>
+  <link rel="icon" href="LOGO.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-wrap">
+      <div class="brand"><span class="logo" role="img"></span><span>Infinity Tv</span></div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#pricing">Pricing</a>
+        <a href="channels.html">Channels List</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact" class="cta nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="channels" class="channels" aria-labelledby="channels-title">
+    <div class="container">
+      <h2 class="section-title" id="channels-title">Channels List</h2>
+      <div class="ch-controls">
+        <input id="ch-search" type="search" placeholder="Search category…" aria-label="Search channels">
+        <div id="ch-tags" class="ch-tags" role="tablist" aria-label="Filter by region"></div>
+      </div>
+      <ul id="ch-grid" class="ch-grid" aria-live="polite" aria-busy="false"></ul>
+    </div>
+  </section>
+  <section id="channels" class="channels" data-mode="deep" aria-labelledby="channels-title">
+  <div class="container">
+    <h2 class="section-title" id="channels-title">Channels List</h2>
+
+    <div class="ch-controls">
+      <input id="ch-search" type="search" placeholder="Search channel, category, region…" aria-label="Search channels">
+      <div id="ch-tags" class="ch-tags" role="tablist" aria-label="Filter by region"></div>
+    </div>
+
+    <!-- Groupe par catégorie -->
+    <div id="ch-groups" class="ch-groups" aria-live="polite" aria-busy="false"></div>
+  </div>
+</section>
+
+
+  <footer><div class="container"><p>© 2025 Infinity Tv. All rights reserved.</p></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
